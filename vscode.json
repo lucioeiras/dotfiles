@@ -1,0 +1,80 @@
+{
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Omni",
+    "workbench.editor.labelFormat": "short",
+    "workbench.iconTheme": "material-icon-theme",
+    
+    "window.zoomLevel": 0,
+    "window.menuBarVisibility": "toggle",
+
+    "editor.tabSize": 2,
+    "editor.fontSize": 18,
+    "editor.rulers": [80, 120],
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "none",
+    "editor.suggestSelection": "first",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.renderLineHighlight": "gutter",
+    "editor.parameterHints.enabled": false,
+    "editor.semanticHighlighting.enabled": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+
+    "terminal.integrated.shell.osx": "/bin/zsh",
+
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
+    "remote.WSL.fileWatcher.polling": true,
+
+    "extensions.ignoreRecommendations": true,
+    "breadcrumbs.enabled": true,
+    
+    "python.languageServer": "Microsoft",
+    "python.pythonPath": "/usr/bin/python3",
+
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    
+    "material-icon-theme.folders.associations": {
+        "infra": "app",
+        "entities": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "repositories": "mappings",
+        "http": "container",
+        "migrations": "tools",
+        "modules": "components",
+        "implementations": "core",
+        "dtos": "typescript",
+        "fakes": "mock"
+    },
+
+    "material-icon-theme.files.associations": {
+        "ormconfig.json": "database",
+        "tsconfig.json": "tune"
+    },
+
+    "oneDarkPro.editorTheme": "oneDarkPro",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+
+    "dart.closingLabels": false
+}
