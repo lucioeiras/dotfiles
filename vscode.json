@@ -1,10 +1,9 @@
 {
     "workbench.startupEditor": "none",
-    "workbench.colorTheme": "Omni",
     "workbench.editor.labelFormat": "short",
     "workbench.iconTheme": "material-icon-theme",
     
-    "window.zoomLevel": 0,
+    "window.zoomLevel": 2,
     "window.menuBarVisibility": "toggle",
 
     "editor.tabSize": 2,
@@ -27,11 +26,12 @@
     "explorer.confirmDelete": false,
 
     "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 18,
 
     "javascript.updateImportsOnFileMove.enabled": "never",
     "typescript.updateImportsOnFileMove.enabled": "never",
-
-    "remote.WSL.fileWatcher.polling": true,
 
     "extensions.ignoreRecommendations": true,
     "breadcrumbs.enabled": true,
@@ -54,15 +54,19 @@
         "modules": "components",
         "implementations": "core",
         "dtos": "typescript",
-        "fakes": "mock"
+        "fakes": "mock",
+        "firebase": "Firebase",
+        "contexts": "Global"
     },
 
     "material-icon-theme.files.associations": {
         "ormconfig.json": "database",
-        "tsconfig.json": "tune"
+        "tsconfig.json": "tune",
+        "package.json": "Nodejs_alt",
+        "package-lock.json": "Npm",
+        "_redirects": "Netlify"
     },
 
-    "oneDarkPro.editorTheme": "oneDarkPro",
     "[dart]": {
         "editor.formatOnSave": true,
         "editor.formatOnType": true,
@@ -76,5 +80,8 @@
         "editor.wordBasedSuggestions": false
     },
 
-    "dart.closingLabels": false
+    "dart.closingLabels": false,
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.rendererType": "dom",
+    "workbench.colorTheme": "Omni"
 }
